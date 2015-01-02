@@ -212,6 +212,11 @@ label {
     text-decoration: none;
     background-color: black;
 }
+div.md {
+    font-weight:100;
+    color: white;
+    text-decoration: none;
+}
 
 /** Arrows **/
 
