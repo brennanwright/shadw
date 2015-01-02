@@ -5,6 +5,11 @@
 
 /*** BODY ***/
 
+/** Content **/
+form.usertext-body {
+    background-color: transparent;
+}
+
 /** Background **/
     body {
     background: white url(%%bg2%%);
@@ -257,14 +262,14 @@ height: 14px; width: 15px;
 
 
 .side {
-    background-color: white;
-    opacity: 50%;
+    background-color: #333333;
+    opacity: .7;
     margin: 8px 8px 10px 8px;
     border-radius: 0px;
     padding: 0;
     width: 300px;
     font-family: sans-serif !important;
-    outline: #E3E3E3 groove 10px
+    /* outline: #E3E3E3 groove 10px */
 }
 
 /**Buttons**/
