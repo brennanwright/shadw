@@ -1,7 +1,7 @@
 /* SHADW by /u/leradioactivenarwhal
     reddit.com/r/shadw
-    SHADW Version 1.0.0
-    */
+    SHADW Version 2.0.0
+*/
 
 /*** BODY ***/
 
@@ -11,6 +11,19 @@
     background-repeat: repeat
     background-position: top center;
     }
+
+/* Boxes */
+
+/**** Incomplete. You may enable this feature although it is not recomended due to visual errors ****/
+/*div.entry {
+    background-color: white;
+    opacity: .5;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000000;
+}
+*/
+
 /** Header **/
 
 #sr-header-area {
@@ -22,6 +35,9 @@
     font-size: 90%;
     height: 18px;
     line-height: 18px;
+    border: 4px solid;
+    border-radius: 8px;
+
 }
 .sr-bar a {
     color: #01072c;
@@ -130,8 +146,72 @@ span.hover.pagename.redditname {
     color: #fff;
 }
 
+#header h3 a{
+  font-weight:100;
+  color: white;
+  text-decoration: none;
+}
+#header h2 a{
+  font-weight:100;
+  color: white;
+  text-decoration: none;
+}
+#header h1 a{
+  font-weight:100;
+  color: white;
+  text-decoration: none;
+}
+span.header {
+    font-weight:100;
+    color: white;
+    text-decoration: none
+}
+span.header.narrow {
+    font-weight:100;
+    color: white;
+    text-decoration: none
+}
+.tabmenu {
+    list-style-type: none;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: bottom;
+    background-color: white;
+}
 
-
+/** Text **/
+pre.img-name {
+    font-weight:100;
+    color: white;
+    text-decoration: none;
+}
+pre.img-url {
+    font-weight:100;
+    color: white;
+    text-decoration: none;
+}
+b.img-name {
+    font-weight:100;
+    color: white;
+    text-decoration: none;
+}
+b.img-url {
+    font-weight:100;
+    color: white;
+    text-decoration: none;
+}
+span.number {
+    font-weight:100;
+    color: black !important;
+    text-decoration: none;
+}
+label {
+    font-weight:80;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
 
 /** Arrows **/
 
@@ -179,7 +259,7 @@ height: 14px; width: 15px;
     padding: 0;
     width: 300px;
     font-family: sans-serif !important;
-    outline: #E3E3E3 solid 5px
+    outline: #E3E3E3 groove 10px
 }
 
 /**Buttons**/
@@ -431,5 +511,39 @@ body:not(.subscriber) #siteTable:before
      -webkit-border-radius: 4px
 }
 
+/*** USER CONTENT ***/
 
+/** Flairs **/
+
+.flairselector .customizer {
+display: none !important;
+}
+
+.flair {
+border: none !important;
+top:20px;
+padding:0px;
+background: url(%%spritesheet%%);
+display:inline-block;
+}
+
+/** You can customize these to your liking =D **/
+.flair-one { background-position: 0 -328px; width: 32px; height: 32px; } 
+
+.flair-two { background-position: 0 -246px; width: 32px; height: 32px; }
+
+.flair-three { background-position: 0 -164px; width: 32px; height: 32px; }
+
+.flair-four { background-position: 0 -82px; width: 32px; height: 32px; } 
+
+.flair-five { background-position: 0 0; width: 32px; height: 32px; } 
+
+
+
+
+
+
+
+
+/***** End CSS Theme *****/
 
